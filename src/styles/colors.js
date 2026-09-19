@@ -5,6 +5,8 @@ const COLORS = {
   background: "#f4f5f5",
   surface: "#ffffff",
 
+  splashBackground: "#b2bf99",
+
   text: "#263238",
   textSecondary: "#6b7478",
 

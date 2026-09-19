@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.splashBackground,
     paddingHorizontal: 30,
   },
 
@@ -21,13 +21,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "700",
     color: COLORS.text,
-    textAlign: "center",
-  },
-
-  subtitulo: {
-    marginTop: 8,
-    fontSize: 16,
-    color: COLORS.textSecondary,
     textAlign: "center",
   },
 });

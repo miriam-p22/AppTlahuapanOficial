@@ -24,8 +24,6 @@ const SplashScreen = ({ navigation }) => {
       />
 
       <Text style={styles.titulo}>Gestión Documental</Text>
-
-      <Text style={styles.subtitulo}>Oficialía de Partes</Text>
     </View>
   );
 };

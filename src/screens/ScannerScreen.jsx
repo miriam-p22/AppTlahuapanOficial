@@ -114,21 +114,7 @@ const ScannerScreen = ({ navigation }) => {
           </View>
         </View>
 
-        <View style={styles.centro} pointerEvents="none">
-          <Text style={styles.indicacion}>
-            Coloca el documento dentro del marco
-          </Text>
-
-          <View style={styles.marcoDocumento}>
-            <View style={[styles.esquina, styles.esquinaSuperiorIzquierda]} />
-
-            <View style={[styles.esquina, styles.esquinaSuperiorDerecha]} />
-
-            <View style={[styles.esquina, styles.esquinaInferiorIzquierda]} />
-
-            <View style={[styles.esquina, styles.esquinaInferiorDerecha]} />
-          </View>
-        </View>
+        <View style={styles.centro} pointerEvents="none" />
 
         <View style={styles.inferior}>
           <Text style={styles.ayuda}>

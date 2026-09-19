@@ -28,7 +28,7 @@ const InicioScreen = ({ navigation }) => {
         contentContainerStyle={styles.contenido}
         showsVerticalScrollIndicator={false}
       >
-        <Text style={styles.titulo}>Oficialía de Partes</Text>
+        <Text style={styles.titulo}>Escaneo de documentos</Text>
 
         <Text style={styles.descripcion}>
           Digitaliza y distribuye la documentación recibida a las áreas

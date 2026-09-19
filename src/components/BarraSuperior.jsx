@@ -4,7 +4,7 @@ import { Image, Text, View } from "react-native";
 
 import styles from "../styles/BarraSuperior.styles";
 
-const BarraSuperior = ({ titulo = "Oficialía de Partes" }) => {
+const BarraSuperior = ({ titulo = "Municipio de Tlahuapan" }) => {
   return (
     <View style={styles.container}>
       <Image
